@@ -1,4 +1,41 @@
-  body {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+#book {
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rosybrown;
+  vertical-align: middle;
+  padding: 10px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  color: white;
+  border-radius: 3px;
+}
+.navbar li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    overflow: hidden;
+    background-color: white;
+    justify-content: center;
+      }
+  .navbar1 {
+    float: left;
+  }
+  .navbar1 a {
+    display: inline-block;
+    color: seagreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar1 a:hover {
+    background-color: rosybrown;
+    color: black;
+  }
+  .active {
+    background-color: #04AA6D;
   }
