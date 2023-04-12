@@ -39,3 +39,17 @@
   .active {
     background-color: #04AA6D;
   }
+
+  h4 {
+    padding: 0px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 00;
+  }
+
+div {
+padding: 10px;
+}
