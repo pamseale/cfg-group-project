@@ -8,8 +8,13 @@
   top: 25px;
   right: 10px;
   color: white;
-  border-radius: 3px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-color:  rosybrown;
+  border-style: solid;
 }
+
+
 .navbar li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12;
@@ -34,7 +39,7 @@
   }
   .navbar1 a:hover {
     background-color: rosybrown;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   .active {
     background-color: #04AA6D;
@@ -51,5 +56,17 @@
   }
 
 div {
-padding: 10px;
+padding: 15px;
 }
+
+p{
+  margin: 0;
+  padding: 00;
+}
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
