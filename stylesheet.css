@@ -41,17 +41,42 @@
   }
 
   div {
-padding: 15px;
+    padding: 10px;
+    }
+    
+    p{
+      margin: 0;
+      padding: 00;
+    }
+    
+    
+    a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+    }
+
+#Monday {
+  background-color: #d9ead3;
 }
 
-p{
-  margin: 0;
-  padding: 00;
+#Wednesday{
+  background-color: #d9ead3;
 }
 
-
-a, a:hover, a:focus, a:active {
-  text-decoration: none;
-  color: inherit;
+#Friday{
+  background-color: #d9ead3;
 }
 
+#Sunday{
+  background-color: #d9ead3;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 0;
+  border: 0;
+
+}
