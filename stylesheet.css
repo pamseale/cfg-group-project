@@ -5,9 +5,9 @@
   margin-right: auto;
   text-align: center;
   font-size: 30px;
-  font-weight: 400;
-  font-family: "proxima-nova", sans-serif;
-  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: "monarcha", serif;
+  word-spacing: 3px;
   background-color: pink;
   color: #194F43;
   border-radius: 40px;
@@ -46,7 +46,7 @@
   .hover-underline-animation {
     position: relative;
     color: #194F43
-    text-decoration: none;
+    
   }
   
   .hover-underline-animation::after {
@@ -55,7 +55,7 @@
     width: 100%;
     transform: scaleX(0);
     height: 5px;
-    top: 40px;
+    top: 50px;
     bottom: 0;
     left: 0;
     background-color: pink;
@@ -67,6 +67,32 @@
   .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+    color: #477168;
+  } 
+  .hover-underline-animation2 {
+    position: relative;
+    color: #194F43
+    
+  }
+  
+  .hover-underline-animation2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    color: #27423c;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .hover-underline-animation2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom right;
     color: #477168;
   } 
 
@@ -112,7 +138,7 @@
 
 body {
   font-family: "proxima-nova", sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .carouselFade {
   width: 40%;
