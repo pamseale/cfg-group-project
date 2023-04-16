@@ -1,8 +1,15 @@
 #book {
-  font-size: 16px;
-  font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 30%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "monarcha", serif;
+  word-spacing: 3px;
   background-color: pink;
+
   padding: 0px;
     top: 0px;
   right: 0px;
@@ -13,19 +20,41 @@
 .navbar li {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 12;
+
+  color: #194F43;
+  border-radius: 40px;
+}
+
+#book:hover {
+  background-color: #194F43;
+  color: pink;
+  transition: fade 0.5s ease-in-out;
+  
+}
+.navbar li{
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+    font-size: 20px;
+
     list-style-type: none;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
     width: 200px;
-    overflow: hidden;
+    overflow: visible;
     background-color: white;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
       }
 
   .navbar1 {
     float: left;
+    color: #194F43;
   }
+
 
   .navbar1 a {
     display: inline-block;
@@ -33,14 +62,63 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
+  .navbar1:hover{
+    color: #6c8781;
   }
-  .navbar1 a:hover {
+  .hover-underline-animation {
+    position: relative;
+    color: #194F43
+    
+
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    top: 50px;
+    bottom: 0;
+    left: 0;
     background-color: pink;
-    color: black;
+    color: #27423c;
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
   }
-  .active {
-    background-color: #04AA6D;
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: #477168;
+  } 
+  .hover-underline-animation2 {
+    position: relative;
+    color: #194F43
+    
   }
+  
+  .hover-underline-animation2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    color: #27423c;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .hover-underline-animation2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+    color: #477168;
+  } 
 
   div {
     padding: 10px;
@@ -72,6 +150,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
   padding: 0;
   border: 0;
 }
@@ -118,3 +197,53 @@ button:hover {
   border: 10px;
   padding: 10px;
 }
+
+  height: 100%;
+
+}
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: 2px;
+}
+.carouselFade {
+  width: 40%;
+}
+.col {
+  width: 20%;
+}
+
+/* Style all social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Social media hover effect*/
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: rgb(0, 128, 87);
+  color: white;
+  font-size: 30px;
+}
+
