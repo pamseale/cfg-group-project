@@ -303,3 +303,9 @@ input[type=text]:focus, input[type=number]:focus {
 .btn:hover {
   opacity: 1;
 }
+
+/* Set a style for review stars */
+.checked {
+  color: darkgreen;
+}
+
