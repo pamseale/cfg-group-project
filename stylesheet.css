@@ -237,3 +237,68 @@ border: none;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*form*/
+
+
+body, html {
+  height: 100% ;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.bookings {
+  /* The image used */
+  background-image: url("images/img-landscape-2.jpg");
+
+  /* Control the height of the image */
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  right: 50px;
+  margin: 0px;
+  max-width: 600px;
+  padding: 75px;
+  margin: 75px;
+  color: black;
+  background: rgba(204, 204, 204, 0.5)
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: pink;
+  color: darkgreen;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
